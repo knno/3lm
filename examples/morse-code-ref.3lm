@@ -1,0 +1,81 @@
+Class classes
+    Class sound_space
+        id = " "
+        d = 0
+    End
+    Class sound_short
+        id = "."
+        d = 1
+    End
+    Class sound_long
+        id = "-"
+        d = 2
+    End
+
+    Class sequence
+        min = 0
+        max = 2
+    End
+
+    Class letter
+        min = 1
+        max = 4
+    End
+
+    Class number
+        min = 5
+        max = 5
+    End
+End
+
+MorseCode numbers
+    data = [
+        ".....",
+        "....-",
+        "...-.",
+        "...--",
+        "..-..",
+        "..-.-",
+        '..--.',
+        "..---",
+        ".-...",
+        ".-..-"
+    ]
+End
+
+MorseCode letters
+    A = ".-"
+    B = "-..."
+    C = "-.-."
+    D = "-.."
+    E = "."
+    F = "..-."
+    G = "--."
+    H = "...."
+    I = ".."
+    J = ".---"
+    K = "-.-"
+    L = ".-.."
+    M = "--"
+    N = "-."
+    O = "---"
+    P = ".--."
+    Q = "--.-"
+    R = ".-."
+    S = "..."
+    T = "-"
+    U = "..-"
+    V = "...-"
+    W = ".--"
+    X = "-..-"
+    Y = "-.--"
+    Z = "--.."
+End
+
+References
+    Reference morsecode_world
+        ---
+        International Morse Code
+        ---
+    End
+End
